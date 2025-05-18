@@ -1,0 +1,12 @@
+Start Train
+LSAP dim. N =  4
+train data (1000, 4, 4) loaded
+validation data (200, 4, 4) loaded
+Traceback (most recent call last):
+  File "main.py", line 175, in <module>
+    start_train()
+  File "main.py", line 71, in start_train
+    model.reset_parameters()
+  File "D:\anaconda\envs\lsap\lib\site-packages\torch\nn\modules\module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'HGNN' object has no attribute 'reset_parameters'

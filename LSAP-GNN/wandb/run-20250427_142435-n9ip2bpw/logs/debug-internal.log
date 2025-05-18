@@ -1,0 +1,15 @@
+{"time":"2025-04-27T14:24:35.5427622+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"E:\\LSAP-GNN\\wandb\\run-20250427_142435-n9ip2bpw\\logs\\debug-core.log"}
+{"time":"2025-04-27T14:24:36.5650655+08:00","level":"INFO","msg":"created new stream","id":"n9ip2bpw"}
+{"time":"2025-04-27T14:24:36.5650655+08:00","level":"INFO","msg":"stream: started","id":"n9ip2bpw"}
+{"time":"2025-04-27T14:24:36.5650655+08:00","level":"INFO","msg":"handler: started","stream_id":"n9ip2bpw"}
+{"time":"2025-04-27T14:24:36.5650655+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"n9ip2bpw"}
+{"time":"2025-04-27T14:24:36.5650655+08:00","level":"INFO","msg":"sender: started","stream_id":"n9ip2bpw"}
+{"time":"2025-04-27T14:24:36.9327652+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-27T14:24:37.3297846+08:00","level":"INFO","msg":"stream: closing","id":"n9ip2bpw"}
+{"time":"2025-04-27T14:24:37.3297846+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-27T14:24:37.3297846+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-27T14:24:38.7024506+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-27T14:24:39.3853211+08:00","level":"INFO","msg":"handler: closed","stream_id":"n9ip2bpw"}
+{"time":"2025-04-27T14:24:39.3853211+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"n9ip2bpw"}
+{"time":"2025-04-27T14:24:39.3853211+08:00","level":"INFO","msg":"sender: closed","stream_id":"n9ip2bpw"}
+{"time":"2025-04-27T14:24:39.3858275+08:00","level":"INFO","msg":"stream: closed","id":"n9ip2bpw"}

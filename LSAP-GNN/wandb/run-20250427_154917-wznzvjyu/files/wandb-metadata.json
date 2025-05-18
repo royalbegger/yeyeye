@@ -1,0 +1,45 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.8.20",
+  "startedAt": "2025-04-27T07:49:17.132583Z",
+  "args": [
+    "--mode",
+    "train",
+    "--id",
+    "exp4",
+    "--n",
+    "4",
+    "--h",
+    "32",
+    "--train_file",
+    "./data/train4_4x4.npy",
+    "--val_file",
+    "./data/val4_4x4.npy"
+  ],
+  "program": "main.py",
+  "codePath": "main.py",
+  "git": {
+    "remote": "https://github.com/aircarlo/GNN_LSAP.git",
+    "commit": "cdeb0ef8dd7c42d83b36ff689b3013c64b6d58e9"
+  },
+  "email": "487098804@qq.com",
+  "root": "E:\\LSAP-GNN",
+  "host": "DESKTOP-64QRIC7",
+  "executable": "D:\\anaconda\\envs\\lsap\\python.exe",
+  "codePathLocal": "main.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "503316475904",
+      "used": "317570547712"
+    }
+  },
+  "memory": {
+    "total": "15915737088"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  }
+}

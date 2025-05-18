@@ -1,0 +1,18 @@
+Start Train
+LSAP dim. N =  4
+train data (1000, 4, 4) loaded
+validation data (200, 4, 4) loaded
+train epoch 1/50...
+  0%|                                                                                                            | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 175, in <module>
+    start_train()
+  File "main.py", line 99, in start_train
+    pred = model(G.x, G.edge_index, G.edge_attr)  # 形状 [N, N]
+  File "D:\anaconda\envs\lsap\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\LSAP-GNN\networks.py", line 73, in forward
+    x = self.conv1(x, edge_index, edge_weight).relu()
+  File "D:\anaconda\envs\lsap\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() takes 3 positional arguments but 4 were given

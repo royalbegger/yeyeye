@@ -1,0 +1,24 @@
+Start Train
+LSAP dim. N =  4
+train data (1000, 4, 4) loaded
+validation data (200, 4, 4) loaded
+train epoch 1/50...
+  0%|                                                                                                            | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 177, in <module>
+    start_train()
+  File "main.py", line 101, in start_train
+    pred = model(G.x, G.edge_index, G.edge_attr)  # 形状 [N, N]
+  File "D:\anaconda\envs\lsap\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\LSAP-GNN\networks.py", line 97, in forward
+    x = self.conv1(x, edge_index, edge_weight).relu()
+  File "D:\anaconda\envs\lsap\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\LSAP-GNN\networks.py", line 27, in forward
+    return self.propagate(edge_index, x=x, edge_weight=edge_weight)
+  File "D:\anaconda\envs\lsap\lib\site-packages\torch_geometric\nn\conv\message_passing.py", line 317, in propagate
+    out = self.message(**msg_kwargs)
+  File "E:\LSAP-GNN\networks.py", line 33, in message
+    edge_features = torch.cat([x_i, x_j, edge_weight.unsqueeze(-1)], dim=-1)
+RuntimeError: Sizes of tensors must match except in dimension 1. Expected size 32 but got size 16 for tensor number 2 in the list.
